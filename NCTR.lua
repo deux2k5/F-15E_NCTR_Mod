@@ -6,6 +6,7 @@ nctr_table["Su-27"]          = {"SU-27",    10.0,     45.0 }
 nctr_table["Su-33"]          = {"SU-33",    10.0,     45.0 }
 nctr_table["F-14A"]          = {"F-14",     10.0,     45.0 }
 nctr_table["F-14B"]          = {"F-14",     10.0,     45.0 }
+nctr_table["F-14BU"]         = {"F-14",     10.0,     45.0 }
 nctr_table["F-14D"]          = {"F-14",     10.0,     45.0 }
 nctr_table["F-14A-135-GR"]   = {"F-14",     10.0,     45.0 }
 nctr_table["F-14A-135-GR-Early"] = {"F-14",  10.0,     45.0 }
