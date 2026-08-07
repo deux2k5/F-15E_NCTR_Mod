@@ -22,7 +22,7 @@ For a legacy Open Beta installation, replace `DCS` with `DCS.openbeta`. Delete t
 
 The APG-70 NCTR description supplied with the DCS F-15E says the radar analyzes returns from engine turbine and fan blades and compares them with an onboard recognition library. That real library, its cockpit labels, and its recognition thresholds are not public.
 
-This mod therefore uses the installed DCS F-15E table as its source of truth. Stock entries and parameters are retained, obvious label errors are corrected, and added aircraft inherit the closest stock DCS signature class. Real-world manufacturer and military sources are used to choose aircraft families, but they cannot establish an authentic classified NCTR result.
+This mod therefore uses the installed DCS F-15E table as its source of truth. Stock parameters are retained, obvious label errors are corrected, and added aircraft inherit the closest stock DCS signature class. Stock `F-14D` and `F-111F` placeholders are omitted because DCS cannot register either aircraft type. Real-world manufacturer and military sources are used to choose aircraft families, but they cannot establish an authentic classified NCTR result.
 
 The current baseline was checked against DCS `2.9.26.23303`:
 
@@ -52,6 +52,8 @@ For added aircraft, this table reuses only stock F-15E baselines:
 
 The B-2 entry uses the stock F-117's `20.0 / 15.0` values as an approximation. No public source supports a unique B-2 dB value.
 
+Public radar cross-section, aircraft size, or detection-range figures do not support finer per-aircraft values here: NCTR uses engine-return modulation, and the real recognition thresholds are not public.
+
 ## Family labels
 
 - All listed F/A-18 variants use `F/A-18`. This follows the stock table's family-level convention; it does **not** claim that a real NCTR library could never distinguish a legacy Hornet from a Super Hornet.
@@ -80,7 +82,7 @@ An `Unknown NCTR` line normally means the aircraft's runtime name is absent or d
 
 - Eagle Dynamics, [DCS: F-15E Flight Manual](https://www.digitalcombatsimulator.com/en/downloads/documentation/dcs-f15e_flight_manual_en/).
 - Steve Davies, [*Be Afraid of the Dark* official DCS sample](https://www.digitalcombatsimulator.com/images/newsletter/20230623/Steve_Davies_Be_Afraid_of_the_Dark_F-15E_Book_Sample.pdf), p. 47, for the APG-70 NCTR mechanism.
-- DCS runtime-log examples showing the fields as [`angle` and `dB`](https://forum.dcs.world/topic/301560-crash/).
+- DCS runtime-log examples showing the fields as [`angle` and `dB`, and rejecting the stale `F-14D` and `F-111F` entries](https://forum.dcs.world/topic/301560-crash/).
 - U.S. Navy, [F/A-18A-D Hornet and F/A-18E/F Super Hornet fact file](https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2383479/fa-18a-d-hornet-and-fa-18ef-super-hornet-strike-fighter/), for the F404/F414 distinction.
 - NAVAIR, [EA-18G Growler](https://www.navair.navy.mil/product/EA-18G-Growler), for its F/A-18F basis, F414 engines, and platform commonality.
 - U.S. Army ODIN, [UH-60L Black Hawk](https://odin.t2com.army.mil/WEG/Asset/UH-60L_Black_Hawk_American_Utility_Helicopter), for its relationship to the UH-60A.
