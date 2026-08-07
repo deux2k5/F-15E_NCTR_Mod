@@ -17,6 +17,8 @@ nctr_table["MiG-31"]         = {"MIG-31",   10.0,     45.0 }
 nctr_table["Su-30"]          = {"SU-30",    10.0,     45.0 }
 nctr_table["F/A-18A"]        = {"F-18",     10.0,     45.0 }
 nctr_table["F/A-18C"]        = {"F-18",     10.0,     45.0 }
+nctr_table["FA-18E"]         = {"FA-18E",   10.0,     45.0 }
+nctr_table["FA-18F"]         = {"FA-18F",   10.0,     45.0 }
 nctr_table["Mirage 2000-5"]  = {"M-2000",   10.0,     45.0 }
 nctr_table["F-4E"]           = {"F-4",      10.0,     45.0 }
 nctr_table["F-4E-45MC"]      = {"F-4",      10.0,     45.0 }
@@ -85,6 +87,7 @@ nctr_table["A-10C_2"]        = {"A-10",     10.0,     45.0 }
 nctr_table["A-10C"]          = {"A-10",     10.0,     45.0 }
 nctr_table["AV8BNA"]         = {"AV-8B",    10.0,     45.0 }
 nctr_table["A_4E_C"]         = {"A-4E",     10.0,     45.0 }
+nctr_table["A-4E-C"]         = {"A-4E",     10.0,     45.0 }
 
 -- Bombers
 nctr_table["Tu-160"]         = {"TU-160",   10.0,     45.0 }
@@ -100,6 +103,7 @@ nctr_table["MiG-25RBT"]      = {"MIG-25",   10.0,     45.0 }
 
 -- Electronic Warfare Aircraft
 nctr_table["EA_6B"]          = {"EA-6B",    12.0,     45.0 }
+nctr_table["EA-18G"]         = {"EA-18G",   10.0,     45.0 }
 nctr_table["EF111"]          = {"EF-111",   12.0,     45.0 }
 nctr_table["CLP_P8"]         = {"P-8",      15.0,     60.0 }
 nctr_table["CLP_P8_MOD"]     = {"P-8",      15.0,     60.0 }
@@ -120,6 +124,9 @@ nctr_table["KC-46A"]         = {"KC-46",    5.0,      60.0 }
 nctr_table["KC130"]          = {"C-130",    5.0,      60.0 }
 nctr_table["Hercules"]       = {"C-130",    5.0,      60.0 }
 nctr_table["A400M_Atlas"]    = {"A-400M",   20.0,     60.0 }
+nctr_table["A400M_Tanker"]   = {"A-400M",   20.0,     60.0 }
+nctr_table["A330_MRTT_Phenix_Boom"] = {"A-330", 15.0, 60.0 }
+nctr_table["A330_MRTT_Phenix_D"] = {"A-330", 15.0, 60.0 }
 nctr_table["C2A_Greyhound"]  = {"C-2A",     15.0,     60.0 }
 nctr_table["C5_Galaxy"]      = {"C-5",      25.0,     60.0 }
 nctr_table["KC_10_Extender"] = {"KC-10",    20.0,     60.0 }
@@ -162,6 +169,7 @@ nctr_table["T-45"]           = {"T-45",     10.0,     45.0 }
 -- UAVs
 nctr_table["RQ-1A Predator"] = {"RQ-1A",    10.0,     -1.0 }
 nctr_table["MQ-9 Reaper"]    = {"MQ-9",     10.0,     -1.0 }
+nctr_table["CLP_RQ4"]        = {"RQ-4",     10.0,     -1.0 }
 
 -- Stealth Aircraft
 nctr_table["F-117A"]         = {"F-117",    20.0,     15.0 }
