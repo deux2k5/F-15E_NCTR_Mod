@@ -44,7 +44,7 @@ nctr_table["MiG-21Bis"]      = {"MIG-21",   10.0,     45.0 }
 nctr_table["JF-17"]          = {"JF17",     10.0,     45.0 }
 nctr_table["Eurofighter"]    = {"EF-2000",  10.0,     45.0 }
 nctr_table["J-10A"]          = {"J-10",     10.0,     45.0 }
-nctr_table["J-11A"]          = {"SU27",     10.0,     45.0 }
+nctr_table["J-11A"]          = {"SU-27",    10.0,     45.0 }
 nctr_table["AJS37"]          = {"AJ-37",    10.0,     45.0 }
 nctr_table["Mirage-F1C"]     = {"F1",       10.0,     45.0 }
 nctr_table["Mirage-F1CE"]    = {"F1",       10.0,     45.0 }
@@ -102,11 +102,11 @@ nctr_table["MiG-25PD"]       = {"MIG-25",   10.0,     45.0 }
 nctr_table["MiG-25RBT"]      = {"MIG-25",   10.0,     45.0 }
 
 -- Electronic Warfare Aircraft
-nctr_table["EA_6B"]          = {"EA-6B",    12.0,     45.0 }
+nctr_table["EA_6B"]          = {"EA-6B",    10.0,     45.0 }
 nctr_table["EA-18G"]         = {"F/A-18",   10.0,     45.0 }
-nctr_table["EF111"]          = {"EF-111",   12.0,     45.0 }
-nctr_table["CLP_P8"]         = {"P-8",      15.0,     60.0 }
-nctr_table["CLP_P8_MOD"]     = {"P-8",      15.0,     60.0 }
+nctr_table["EF111"]          = {"EF-111",   10.0,     45.0 }
+nctr_table["CLP_P8"]         = {"P-8",      5.0,      60.0 }
+nctr_table["CLP_P8_MOD"]     = {"P-8",      5.0,      60.0 }
 
 -- Transport and Tanker Aircraft
 nctr_table["IL-78M"]         = {"IL-78",    5.0,      60.0 }
@@ -123,16 +123,16 @@ nctr_table["KC135MPRS"]      = {"KC-135",   5.0,      60.0 }
 nctr_table["KC-46A"]         = {"KC-46",    5.0,      60.0 }
 nctr_table["KC130"]          = {"C-130",    5.0,      60.0 }
 nctr_table["Hercules"]       = {"C-130",    5.0,      60.0 }
-nctr_table["A400M_Atlas"]    = {"A-400M",   20.0,     60.0 }
-nctr_table["A400M_Tanker"]   = {"A-400M",   20.0,     60.0 }
-nctr_table["A330_MRTT_Phenix_Boom"] = {"A-330", 15.0, 60.0 }
-nctr_table["A330_MRTT_Phenix_D"] = {"A-330", 15.0, 60.0 }
-nctr_table["C2A_Greyhound"]  = {"C-2A",     15.0,     60.0 }
-nctr_table["C5_Galaxy"]      = {"C-5",      25.0,     60.0 }
-nctr_table["KC_10_Extender"] = {"KC-10",    20.0,     60.0 }
-nctr_table["KC_10_Extender_D"] = {"KC-10",  20.0,     60.0 }
-nctr_table["P3C_Orion"]      = {"P-3C",     15.0,     60.0 }
-nctr_table["V22_Osprey"]     = {"V-22",     15.0,     60.0 }
+nctr_table["A400M_Atlas"]    = {"A-400M",   5.0,      60.0 }
+nctr_table["A400M_Tanker"]   = {"A-400M",   5.0,      60.0 }
+nctr_table["A330_MRTT_Phenix_Boom"] = {"A-330", 5.0, 60.0 }
+nctr_table["A330_MRTT_Phenix_D"] = {"A-330", 5.0, 60.0 }
+nctr_table["C2A_Greyhound"]  = {"C-2A",     5.0,      60.0 }
+nctr_table["C5_Galaxy"]      = {"C-5",      5.0,      60.0 }
+nctr_table["KC_10_Extender"] = {"KC-10",    5.0,      60.0 }
+nctr_table["KC_10_Extender_D"] = {"KC-10",  5.0,      60.0 }
+nctr_table["P3C_Orion"]      = {"P-3C",     5.0,      60.0 }
+nctr_table["V22_Osprey"]     = {"V-22",     10.0,     -1.0 }
 
 -- Helicopters
 nctr_table["Mi-8MT"]         = {"MI8",      10.0,     -1.0 }
@@ -155,7 +155,7 @@ nctr_table["Mi-28N"]         = {"MI-28",    10.0,     -1.0 }
 nctr_table["OH-58D"]         = {"OH-58",    10.0,     -1.0 }
 nctr_table["OH58D"]          = {"OH-58",    10.0,     -1.0 }
 nctr_table["SA342M"]         = {"GAZELLE",  10.0,     -1.0 }
-nctr_table["UH-60L"]         = {"UH-60L",   10.0,     45.0 }
+nctr_table["UH-60L"]         = {"UH-60",    10.0,     -1.0 }
 
 -- Trainer Aircraft
 nctr_table["L-39C"]          = {"L-39",     10.0,     45.0 }
@@ -173,18 +173,18 @@ nctr_table["CLP_RQ4"]        = {"RQ-4",     10.0,     -1.0 }
 
 -- Stealth Aircraft
 nctr_table["F-117A"]         = {"F-117",    20.0,     15.0 }
-nctr_table["B2_Spirit"]      = {"B-2",      25.0,     30.0 }
+nctr_table["B2_Spirit"]      = {"B-2",      20.0,     15.0 }
 
 -- Civilian Aircraft
 nctr_table["Cessna_210N"]    = {"C-210",    10.0,     45.0 }
-nctr_table["B_747"]          = {"B-747",    20.0,     60.0 }
-nctr_table["A_320"]          = {"A-320",    15.0,     60.0 }
-nctr_table["A_330"]          = {"A-330",    15.0,     60.0 }
-nctr_table["A_380"]          = {"A-380",    20.0,     60.0 }
-nctr_table["B_727"]          = {"B-727",    15.0,     60.0 }
-nctr_table["B_737"]          = {"B-737",    15.0,     60.0 }
-nctr_table["B_757"]          = {"B-757",    15.0,     60.0 }
-nctr_table["DC_10"]          = {"DC-10",    15.0,     60.0 }
+nctr_table["B_747"]          = {"B-747",    5.0,      60.0 }
+nctr_table["A_320"]          = {"A-320",    5.0,      60.0 }
+nctr_table["A_330"]          = {"A-330",    5.0,      60.0 }
+nctr_table["A_380"]          = {"A-380",    5.0,      60.0 }
+nctr_table["B_727"]          = {"B-727",    5.0,      60.0 }
+nctr_table["B_737"]          = {"B-737",    5.0,      60.0 }
+nctr_table["B_757"]          = {"B-757",    5.0,      60.0 }
+nctr_table["DC_10"]          = {"DC-10",    5.0,      60.0 }
 
 -- Command and Control (C2) Aircraft
 nctr_table["A-50"]           = {"A-50",     5.0,      60.0 }
